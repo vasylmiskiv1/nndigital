@@ -1,11 +1,11 @@
-import React from 'react'
+import LoginButton from "../components/LoginButton";
 
 function Auth() {
   return (
-    <div>
-      Auth Page
+    <div className="p-4 m-auto">
+      <LoginButton />
     </div>
-  )
+  );
 }
 
-export default Auth
+export default Auth;

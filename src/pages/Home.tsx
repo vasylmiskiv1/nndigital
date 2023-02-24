@@ -15,16 +15,11 @@ function Home() {
     if (!products.length) {
       dispatch(getProducts());
     }
-  }, [products, dispatch]);
+  }, []);
 
   return (
-    <div>
-      Home page
-      <div className="flex max-sm:justify-center justify-between flex-wrap gap-5 container m-auto">
-       {products.length ? products.map((product: any) => (
-         <ProductCard key={product.id} product={product} />
-       )) : <div>Products not found</div>}
-      </div>
+    <div className="container m-auto">
+     Banners?
     </div>
   );
 }
